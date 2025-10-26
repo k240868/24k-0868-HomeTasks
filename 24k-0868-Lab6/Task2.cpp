@@ -57,7 +57,7 @@ int main() {
         char ch = exp[i];
 
         if (isdigit(ch)) {
-            s.push(ch - '0');  // convert char to int
+            s.push(ch - '0'); 
         } 
         else {
             int val2 = s.pop();
