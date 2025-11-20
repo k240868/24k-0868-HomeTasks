@@ -21,12 +21,13 @@ int main() {
     int n = 5;
 
     h[0] = 1;
-    h[1] = 7;
-    h[2] = 9;
-    h[3] = 0;
+    h[1] = 3;
+    h[2] = 4;
+    h[3] = 5;
     h[4] = 6;
 
     insertHeap(h, n, 2);
 
     for (int i = 0; i < n; i++) cout << h[i] << " ";
 }
+
